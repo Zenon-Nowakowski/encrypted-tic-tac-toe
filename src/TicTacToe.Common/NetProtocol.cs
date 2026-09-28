@@ -1,8 +1,3 @@
-// Tiny line-based network protocol. Each move travels as one text line:
-//   "<16 comma-separated cipher ints>\n"
-// e.g. EncryptMove(4) -> "123,456,...,789\n" (values depend on the key).
-//
-// Plain C# with simple loops - no LINQ, no lambdas, no shorthand.
 namespace TicTacToe.Common;
 
 public static class NetProtocol
@@ -49,7 +44,7 @@ public static class NetProtocol
         return true;
     }
 
-    public static int ReadLocalMove(GameBoard board, char mark)
+    public static int ReadLocalMove(GameBoard board, char me)
     {
         while (true)
         {
@@ -63,7 +58,7 @@ public static class NetProtocol
                 }
                 choices = choices + (free[j] + 1).ToString();
             }
-            Console.Write($"You are '{mark}'. Enter cell 1-9 [{choices}]: ");
+            Console.Write($"You are '{me}'. Enter cell 1-9 [{choices}]: ");
             string? input = Console.ReadLine();
             bool parsed = int.TryParse(input, out int cell);
             bool inRange = parsed && cell >= 1 && cell <= 9;

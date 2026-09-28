@@ -16,3 +16,4 @@ C:\Users\zenon\OneDrive\Documents\github\encrypted tic tac toe\src\TicTacToe.Cli
 C:\Users\zenon\OneDrive\Documents\github\encrypted tic tac toe\src\TicTacToe.Client\obj\Debug\net10.0\TicTacToe.Client.pdb
 C:\Users\zenon\OneDrive\Documents\github\encrypted tic tac toe\src\TicTacToe.Client\obj\Debug\net10.0\TicTacToe.Client.genruntimeconfig.cache
 C:\Users\zenon\OneDrive\Documents\github\encrypted tic tac toe\src\TicTacToe.Client\obj\Debug\net10.0\ref\TicTacToe.Client.dll
+c:\Users\zenon\OneDrive\Documents\github\encrypted tic tac toe\src\TicTacToe.Client\obj\Debug\net10.0\TicTacToe.Client.sourcelink.json

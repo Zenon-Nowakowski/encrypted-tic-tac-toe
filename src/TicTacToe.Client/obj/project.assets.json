@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zenon\\OneDrive\\Documents\\github\\encrypted tic tac toe\\src\\TicTacToe.Client\\TicTacToe.Client.csproj",
+      "projectUniqueName": "c:\\Users\\zenon\\OneDrive\\Documents\\github\\encrypted tic tac toe\\src\\TicTacToe.Client\\TicTacToe.Client.csproj",
       "projectName": "TicTacToe.Client",
-      "projectPath": "C:\\Users\\zenon\\OneDrive\\Documents\\github\\encrypted tic tac toe\\src\\TicTacToe.Client\\TicTacToe.Client.csproj",
+      "projectPath": "c:\\Users\\zenon\\OneDrive\\Documents\\github\\encrypted tic tac toe\\src\\TicTacToe.Client\\TicTacToe.Client.csproj",
       "packagesPath": "C:\\Users\\zenon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zenon\\OneDrive\\Documents\\github\\encrypted tic tac toe\\src\\TicTacToe.Client\\obj\\",
+      "outputPath": "c:\\Users\\zenon\\OneDrive\\Documents\\github\\encrypted tic tac toe\\src\\TicTacToe.Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -59,8 +59,8 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\zenon\\OneDrive\\Documents\\github\\encrypted tic tac toe\\src\\TicTacToe.Common\\TicTacToe.Common.csproj": {
-              "projectPath": "C:\\Users\\zenon\\OneDrive\\Documents\\github\\encrypted tic tac toe\\src\\TicTacToe.Common\\TicTacToe.Common.csproj"
+            "c:\\Users\\zenon\\OneDrive\\Documents\\github\\encrypted tic tac toe\\src\\TicTacToe.Common\\TicTacToe.Common.csproj": {
+              "projectPath": "c:\\Users\\zenon\\OneDrive\\Documents\\github\\encrypted tic tac toe\\src\\TicTacToe.Common\\TicTacToe.Common.csproj"
             }
           }
         }

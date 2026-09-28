@@ -9,3 +9,4 @@ C:\Users\zenon\OneDrive\Documents\github\encrypted tic tac toe\src\TicTacToe.Com
 C:\Users\zenon\OneDrive\Documents\github\encrypted tic tac toe\src\TicTacToe.Common\obj\Debug\net10.0\refint\TicTacToe.Common.dll
 C:\Users\zenon\OneDrive\Documents\github\encrypted tic tac toe\src\TicTacToe.Common\obj\Debug\net10.0\TicTacToe.Common.pdb
 C:\Users\zenon\OneDrive\Documents\github\encrypted tic tac toe\src\TicTacToe.Common\obj\Debug\net10.0\ref\TicTacToe.Common.dll
+C:\Users\zenon\OneDrive\Documents\github\encrypted tic tac toe\src\TicTacToe.Common\obj\Debug\net10.0\TicTacToe.Common.sourcelink.json

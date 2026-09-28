@@ -83,7 +83,9 @@ catch (Exception ex)
 }
 
 board.Render();
-Console.WriteLine(board.GetWinner() is { } w ? (w == me ? "You (O) win!" : "Host (X) wins.") : "Draw!");
+Console.WriteLine(board.GetWinnerMessage(me, foe));
+Console.WriteLine("Press Enter to exit...");
+Console.ReadKey();
 return 0;
 
 static string PromptHost()

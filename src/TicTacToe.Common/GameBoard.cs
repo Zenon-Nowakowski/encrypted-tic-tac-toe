@@ -43,7 +43,7 @@ public sealed class GameBoard
         return true;
     }
 
-    public char? GetWinner()
+    private char? GetWinner()
     {
         for (int l = 0; l < WinLines.Length; l++)
         {
@@ -59,6 +59,26 @@ public sealed class GameBoard
             }
         }
         return null;
+    }
+    public string? GetWinnerMessage(char me, char foe)
+    {
+        var winner = this.GetWinner();
+
+        if (winner != null)
+        {
+            if (winner == me)
+            {
+                return $"You ({me}) win!";
+            }
+            else
+            {
+                return $"Opponent ({foe}) wins.";
+            }
+        }
+        else
+        {
+            return "Draw!";
+        }
     }
 
     public bool IsDraw()
